@@ -7,41 +7,41 @@ const cursos = [
     "prerrequisitos": []
   },
   {
-    "codigo": "DN-0102",
-    "nombre": "Matemática financiera",
+    "codigo": "MA-0001",
+    "nombre": "Precálculo",
     "anio": 1,
     "ciclo": 1,
     "prerrequisitos": []
   },
   {
     "codigo": "DN-0103",
-    "nombre": "Contabilidad I",
+    "nombre": "Cálculo para ciencias económicas I",
     "anio": 1,
     "ciclo": 1,
-    "prerrequisitos": []
-  },
-  {
-    "codigo": "DN-0104",
-    "nombre": "Fundamentos de economía",
-    "anio": 1,
-    "ciclo": 1,
-    "prerrequisitos": []
-  },
-  {
-    "codigo": "DN-0105",
-    "nombre": "Estadística I",
-    "anio": 1,
-    "ciclo": 2,
-    "prerrequisitos": []
-  },
-  {
-    "codigo": "DN-0106",
-    "nombre": "Contabilidad II",
-    "anio": 1,
-    "ciclo": 2,
     "prerrequisitos": [
-      "DN-0103"
+      "MA-0001"
     ]
+  },
+  {
+    "codigo": "EG-",
+    "nombre": "Curso de Arte",
+    "anio": 1,
+    "ciclo": 1,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "RP-",
+    "nombre": "Repertorio",
+    "anio": 1,
+    "ciclo": 1,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "EG-1",
+    "nombre": "Curso Integrado de Humanidades I",
+    "anio": 1,
+    "ciclo": 1,
+    "prerrequisitos": []
   },
   {
     "codigo": "DN-0107",
