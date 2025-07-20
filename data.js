@@ -14,7 +14,7 @@ const cursos = [
     "prerrequisitos": []
   },
   {
-    "codigo": "DN-0103",
+    "codigo": "MA-1021",
     "nombre": "Cálculo para ciencias económicas I",
     "anio": 1,
     "ciclo": 1,
@@ -44,101 +44,107 @@ const cursos = [
     "prerrequisitos": []
   },
   {
-    "codigo": "DN-0107",
-    "nombre": "Microeconomía",
+    "codigo": "PC-0200",
+    "nombre": "Contabilidad Básica ",
     "anio": 1,
     "ciclo": 2,
     "prerrequisitos": [
-      "DN-0104"
+      "DN-0101"
     ]
   },
   {
-    "codigo": "DN-0108",
-    "nombre": "Comportamiento organizacional",
+    "codigo": "DN-0102",
+    "nombre": "Aplicaciones Ofimáticas para la toma de decisiones",
     "anio": 1,
     "ciclo": 2,
     "prerrequisitos": []
   },
   {
-    "codigo": "DN-0109",
-    "nombre": "Estadística II",
-    "anio": 2,
-    "ciclo": 1,
+    "codigo": "MA-1022",
+    "nombre": "Cálculo para ciencias económicas II",
+    "anio": 1,
+    "ciclo": 2,
     "prerrequisitos": [
-      "DN-0105"
+      "MA-1021"
     ]
   },
   {
-    "codigo": "DN-0110",
-    "nombre": "Macroeconomía",
-    "anio": 2,
-    "ciclo": 1,
+    "codigo": "EF-",
+    "nombre": "Actividad deportiva",
+    "anio": 1,
+    "ciclo": 2,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "EG-2",
+    "nombre": "Curso Integrado de Humanidades II",
+    "anio": 1,
+    "ciclo": 2,
     "prerrequisitos": [
-      "DN-0107"
+      "EG-1"
     ]
   },
   {
-    "codigo": "DN-0111",
+    "codigo": "PC-0202",
     "nombre": "Contabilidad Intermedia I",
     "anio": 2,
-    "ciclo": 1,
+    "ciclo": 3,
     "prerrequisitos": [
-      "DN-0106"
+      "PC-0200"
     ]
   },
   {
-    "codigo": "DN-0112",
-    "nombre": "Derecho empresarial",
+    "codigo": "DN-0103",
+    "nombre": "Administración de proyectos y herramientas para el análisis de datos",
     "anio": 2,
-    "ciclo": 1,
+    "ciclo": 3,
+    "prerrequisitos": [
+      "DN-0102"
+    ]
+  },
+  {
+    "codigo": "PC-0240",
+    "nombre": "Matemática financiera",
+    "anio": 2,
+    "ciclo": 3,
+    "prerrequisitos": [
+      "DN-0102"
+      "MA-1022"
+    ]
+  },
+  {
+    "codigo": "XS-0276",
+    "nombre": "Estadística general I",
+    "anio": 2,
+    "ciclo": 3,
+    "prerrequisitos": [
+      "MA-1021"
+    ]
+  },
+  {
+    "codigo": "XE-0156",
+    "nombre": "Introducción a la economía",
+    "anio": 2,
+    "ciclo": 3,
     "prerrequisitos": []
   },
   {
-    "codigo": "DN-0113",
+    "codigo": "PC-0304",
     "nombre": "Contabilidad Intermedia II",
     "anio": 2,
-    "ciclo": 2,
+    "ciclo": 4,
     "prerrequisitos": [
-      "DN-0111"
+      "PC-0202"
+      "PC-0240"
     ]
   },
   {
-    "codigo": "DN-0114",
-    "nombre": "Matemática aplicada",
+    "codigo": "DN-0104",
+    "nombre": "Elementos fundamentales de la legislación empresarial",
     "anio": 2,
-    "ciclo": 2,
-    "prerrequisitos": []
-  },
-  {
-    "codigo": "DN-0115",
-    "nombre": "Formulación y evaluación de proyectos I",
-    "anio": 2,
-    "ciclo": 2,
-    "prerrequisitos": []
-  },
-  {
-    "codigo": "DN-0116",
-    "nombre": "Gerencia de operaciones",
-    "anio": 2,
-    "ciclo": 2,
-    "prerrequisitos": []
-  },
-  {
-    "codigo": "DN-0117",
-    "nombre": "Investigación de mercados",
-    "anio": 3,
-    "ciclo": 1,
+    "ciclo": 4,
     "prerrequisitos": [
-      "DN-0109"
-    ]
-  },
-  {
-    "codigo": "DN-0118",
-    "nombre": "Gerencia de recursos humanos",
-    "anio": 3,
-    "ciclo": 1,
-    "prerrequisitos": [
-      "DN-0108"
+      "DN-0101"
     ]
   },
   {
