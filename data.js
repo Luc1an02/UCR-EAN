@@ -108,7 +108,7 @@ const cursos = [
     "anio": 2,
     "ciclo": 3,
     "prerrequisitos": [
-      "DN-0102"
+      "DN-0102",
       "MA-1022"
     ]
   },
@@ -134,7 +134,7 @@ const cursos = [
     "anio": 2,
     "ciclo": 4,
     "prerrequisitos": [
-      "PC-0202"
+      "PC-0202",
       "PC-0240"
     ]
   },
@@ -148,125 +148,251 @@ const cursos = [
     ]
   },
   {
-    "codigo": "DN-0119",
-    "nombre": "Gerencia de calidad",
-    "anio": 3,
-    "ciclo": 1,
-    "prerrequisitos": []
-  },
-  {
-    "codigo": "DN-0120",
-    "nombre": "Emprendimiento y creación de empresas",
-    "anio": 3,
-    "ciclo": 1,
-    "prerrequisitos": []
-  },
-  {
-    "codigo": "DN-0121",
+    "codigo": "DN-0340 ",
     "nombre": "Administración financiera I",
-    "anio": 3,
-    "ciclo": 2,
+    "anio": 2,
+    "ciclo": 4,
     "prerrequisitos": [
-      "DN-0102",
-      "DN-0113"
+      "PC-0240"
     ]
   },
   {
-    "codigo": "DN-0122",
-    "nombre": "Ventas y distribución",
-    "anio": 3,
-    "ciclo": 2,
+    "codigo": "XS-0277 ",
+    "nombre": "Estadística General II",
+    "anio": 2,
+    "ciclo": 4,
     "prerrequisitos": [
-      "DN-0117"
+      "XS-0276",
+      "MA-1022"
     ]
   },
   {
     "codigo": "DN-0123",
-    "nombre": "Liderazgo gerencial",
-    "anio": 3,
-    "ciclo": 2,
+    "nombre": "Metodología de la investigación",
+    "anio": 2,
+    "ciclo": 4,
     "prerrequisitos": [
-      "DN-0118"
+      "XS-027"
     ]
   },
   {
-    "codigo": "DN-0124",
-    "nombre": "Gerencia estratégica",
-    "anio": 3,
-    "ciclo": 2,
-    "prerrequisitos": []
+    "codigo": "SR-I",
+    "nombre": "Seminario de realidad nacional I",
+    "anio": 2,
+    "ciclo": 4,
+    "prerrequisitos": [
+      "EG-2"
+    ]
   },
   {
-    "codigo": "DN-0125",
+    "codigo": "DN-0320",
+    "nombre": "Principios de mercadeo",
+    "anio": 3,
+    "ciclo": 5,
+    "prerrequisitos": [
+      "DN-0340"
+    ]
+  },
+  {
+    "codigo": "PC-0261",
+    "nombre": "Legislación comercial, bancaria y financiera",
+    "anio": 3,
+    "ciclo": 5,
+    "prerrequisitos": [
+      "DN-0104"
+    ]
+  },
+  {
+    "codigo": "DN-0341",
     "nombre": "Administración financiera II",
-    "anio": 4,
-    "ciclo": 1,
+    "anio": 3,
+    "ciclo": 5,
     "prerrequisitos": [
-      "DN-0121"
+      "DN-0340"
     ]
   },
   {
-    "codigo": "DN-0126",
-    "nombre": "Auditoría administrativa",
-    "anio": 4,
-    "ciclo": 1,
-    "prerrequisitos": []
+    "codigo": "DN-0105 ",
+    "nombre": "Métodos cuantitativos para la toma de decisiones I",
+    "anio": 3,
+    "ciclo": 5,
+    "prerrequisitos": [
+      "DN-0340",
+      "XS-0277"
+    ]
   },
   {
     "codigo": "DN-0127",
-    "nombre": "Administración de la producción",
-    "anio": 4,
-    "ciclo": 1,
+    "nombre": "Principios de gerencia",
+    "anio": 3,
+    "ciclo": 5,
     "prerrequisitos": [
-      "DN-0116"
+      "DN-0340"
     ]
   },
   {
-    "codigo": "DN-0128",
-    "nombre": "Administración mediada por tecnologías de la información",
-    "anio": 4,
-    "ciclo": 1,
-    "prerrequisitos": []
-  },
-  {
-    "codigo": "DN-0129",
-    "nombre": "Formulación y evaluación de proyectos II",
-    "anio": 4,
-    "ciclo": 2,
+    "codigo": "SR-II",
+    "nombre": "Seminario de realidad nacional II",
+    "anio": 3,
+    "ciclo": 5,
     "prerrequisitos": [
-      "DN-0115"
+      "SR-I"
     ]
   },
   {
-    "codigo": "DN-0130",
-    "nombre": "Ética profesional",
-    "anio": 4,
-    "ciclo": 2,
-    "prerrequisitos": []
+    "codigo": "DN-0321",
+    "nombre": "Publicidad y promoción",
+    "anio": 3,
+    "ciclo": 6,
+    "prerrequisitos": [
+      "DN-0320"
+    ]
   },
   {
-    "codigo": "DN-0131",
+    "codigo": "PC-0260",
+    "nombre": "Legislación laboral",
+    "anio": 3,
+    "ciclo": 6,
+    "prerrequisitos": [
+      "PC-0261"
+    ]
+  },
+  {
+    "codigo": "DN-0442",
+    "nombre": "Administración financiera III",
+    "anio": 3,
+    "ciclo": 6,
+    "prerrequisitos": [
+      "DN-0341"
+    ]
+  },
+  {
+    "codigo": "DN-0110",
+    "nombre": "Métodos cuantitativos para la toma de decisiones II",
+    "anio": 3,
+    "ciclo": 6,
+    "prerrequisitos": [
+      "DN-0105"
+    ]
+  },
+  {
+    "codigo": "DN-0106",
+    "nombre": "Gestión del talento y conocimiento humano",
+    "anio": 3,
+    "ciclo": 6,
+    "prerrequisitos": [
+      "DN-0202"
+    ]
+  },
+  {
+    "codigo": "DN-0107",
+    "nombre": "Economía y comercio internacional",
+    "anio": 3,
+    "ciclo": 6,
+    "prerrequisitos": [
+      "XE-0156"
+    ]
+  },
+{
+    "codigo": "DN-0423",
+    "nombre": "Investigación de mercados",
+    "anio": 4,
+    "ciclo": 7,
+    "prerrequisitos": [
+      "DN-0321"
+    ]
+  },
+  {
+    "codigo": "PC-0462",
+    "nombre": "Legislación tributaria y aduanera",
+    "anio": 4,
+    "ciclo": 7,
+    "prerrequisitos": [
+      "PC-0260",
+      "PC-0304"
+    ]
+  },
+  {
+    "codigo": "PC-0344 ",
+    "nombre": "Formulación y evaluación de proyectos I",
+    "anio": 4,
+    "ciclo": 7,
+    "prerrequisitos": [
+      "DN-0341"
+    ]
+  },
+  {
+    "codigo": "DN-0496",
+    "nombre": "Gerencia de Operaciones",
+    "anio": 4,
+    "ciclo": 7,
+    "prerrequisitos": [
+      "DN-0110"
+    ]
+  },
+  {
+    "codigo": "DN-0405",
+    "nombre": "Emprendimiento y creación de empresas",
+    "anio": 4,
+    "ciclo": 7,
+    "prerrequisitos": [
+      "DN-0106"
+    ]
+  },
+  {
+    "codigo": "DN-0304",
+    "nombre": "Liderazgo gerencial",
+    "anio": 4,
+    "ciclo": 7,
+    "prerrequisitos": [
+      "DN-0106"
+    ]
+  },
+  {
+    "codigo": "DN-0322",
+    "nombre": "Ventas y distribución",
+    "anio": 4,
+    "ciclo": 8,
+    "prerrequisitos": [
+      "DN-0423"
+    ]
+  },
+  {
+    "codigo": "DN-0109",
+    "nombre": "Principios de auditoría financiera",
+    "anio": 4,
+    "ciclo": 8,
+    "prerrequisitos": [
+      "PC-0304",
+      "DN-0442"
+    ]
+  },
+  {
+    "codigo": "DN-0108",
     "nombre": "Mercados bursátiles",
     "anio": 4,
-    "ciclo": 2,
+    "ciclo": 8,
     "prerrequisitos": [
-      "DN-0125"
+      "DN-0442",
+      "PC-0344"
     ]
   },
   {
-    "codigo": "DN-0132",
-    "nombre": "Administración pública",
+    "codigo": "DN-0112",
+    "nombre": "Gerencia de calidad",
     "anio": 4,
-    "ciclo": 2,
-    "prerrequisitos": []
+    "ciclo": 8,
+    "prerrequisitos": [
+      "DN-0496"
+    ]
   },
   {
-    "codigo": "DN-0508",
-    "nombre": "Seminario integrado de alta gerencia",
-    "anio": 5,
-    "ciclo": 1,
+    "codigo": "DN-0111",
+    "nombre": "Gestión de la innovación y Estrategia competitiva",
+    "anio": 4,
+    "ciclo": 8,
     "prerrequisitos": [
-      "DN-0117"
+      "DN-0106"
     ]
   },
   {
